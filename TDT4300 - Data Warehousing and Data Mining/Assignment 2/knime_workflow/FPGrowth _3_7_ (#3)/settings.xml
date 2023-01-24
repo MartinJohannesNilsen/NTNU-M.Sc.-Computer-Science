@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="ClassColumn" type="xstring" isnull="true" value=""/>
+        <config key="weka-optionhandler-settings">
+            <entry key="-P_(#0)" type="xstring" value="2"/>
+            <entry key="-N_(#1)" type="xstring" value="10"/>
+            <entry key="-T_(#2)" type="xstring" value="0"/>
+            <entry key="-C_(#3)" type="xstring" value="0.9"/>
+            <entry key="-D_(#4)" type="xstring" value="0.05"/>
+            <entry key="-U_(#5)" type="xstring" value="1.0"/>
+            <entry key="-M_(#6)" type="xstring" value="0.1"/>
+            <entry key="options_list_with_placeholders" type="xstring" value="-P #0 -I -1 -N #1 -T #2 -C #3 -D #4 -U #5 -M #6"/>
+            <entry key="additional_options" type="xstring" value=""/>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.weka37.associator.WekaAssociatorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="FPGrowth (3.7)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111171118"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Weka Data Mining Integration (3.7)"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202111171118"/>
+    <config key="factory_settings">
+        <entry key="weka-class" type="xstring" value="weka.associations.FPGrowth"/>
+        <entry key="weka-version" type="xstring" value="3.7"/>
+        <entry key="weka_nodes_version" type="xstring" value="V112015"/>
+    </config>
+    <entry key="name" type="xstring" value="FPGrowth (3.7)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="c016ebf9-75d6-498b-99f2-bcb2dc6a658f"/>
+    </config>
+</config>

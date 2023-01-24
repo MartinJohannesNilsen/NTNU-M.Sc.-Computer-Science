@@ -1,0 +1,4 @@
+.env.secret
+.env.local.secret
+**/output.txt
+**/__pycache__

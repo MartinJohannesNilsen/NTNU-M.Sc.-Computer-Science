@@ -1,0 +1,33 @@
+% A, B, C, F, G, H
+% A, B, C, E, G
+% C, E, F, H
+% A, B, C, G, H
+% C, D, E, H
+% B, C, E, G
+% A, B, C, D, G, H
+% B, C, E, G
+% A, C, G, H
+% A, B, C, D, E, G, H
+
+@relation tdt4300_association_rules_2019
+
+@attribute 'A' {t}
+@attribute 'B' {t}
+@attribute 'C' {t}
+@attribute 'D' {t}
+@attribute 'E' {t}
+@attribute 'F' {t}
+@attribute 'G' {t}
+@attribute 'H' {t}
+
+@data
+t, t, t, ?, ?, t, t, t
+t, t, t, ?, t, ?, t, ?
+?, ?, t, ?, t, t, ?, t
+t, t, t, ?, ?, ?, t, t
+?, ?, t, t, t, ?, ?, t
+?, t, t, ?, t, ?, t, ?
+t, t, t, t, ?, ?, t, t
+?, t, t, ?, t, ?, t, ?
+t, ?, t, ?, ?, ?, t, t
+t, t, t, t, t, ?, t, t

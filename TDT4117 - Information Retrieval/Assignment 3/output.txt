@@ -1,0 +1,65 @@
+
+ - - - - - - - - - - - - - - - - - - - -
+  Assignment 3 - Martin Johannes Nilsen
+ - - - - - - - - - - - - - - - - - - - -
+Query: 'What is the function of money?'
+
+
+Task 4.2 - TFIDF weights of query
+---------------------------------
+['money: 0.32', 'function: 0.95']
+
+Task 4.3 - Top 3 most relevant paragraphs
+-----------------------------------------
+[paragraph 677]
+The general stock of any country or society is the
+same with that of all its inhabitants or members; and,
+therefore, naturally divides itself into the same three portions, each
+of which has a distinct function or office.
+
+[paragraph 988]
+That wealth consists in money, or in gold and silver,
+is a popular notion which naturally arises from the double
+function of money, as the instrument of commerce, and as
+the measure of value. In consequence of its being the
+instrument of commerce, when we have money we can more
+
+[paragraph 812]
+Whatever part of his stock a man employs as a
+capital, he always expects it to be replaced to him
+with a profit. He employs it, therefore, in maintaining productive
+hands only; and after having served in the function of
+a capital to him, it constitutes a revenue to them.
+
+Task 4.4 - Top 3 topics and most relevant paragraphs
+----------------------------------------------------
+[Topic 5]
+-0.259*"bank" + 0.237*"price" + -0.231*"circul" + -0.224*"capit" + -0.190*"gold" + -0.188*"money" + 0.167*"corn" + 0.150*"tax" + -0.139*"coin" + 0.138*"import"
+
+[Topic 16]
+-0.311*"coloni" + -0.272*"circul" + 0.180*"increas" + -0.171*"money" + 0.162*"coin" + 0.154*"cent" + -0.154*"price" + 0.150*"per" + 0.144*"trade" + -0.138*"paper"
+
+[Topic 62]
+0.154*"money" + -0.154*"proport" + 0.141*"class" + -0.139*"differ" + 0.131*"natur" + 0.122*"caus" + -0.120*"monopoli" + -0.106*"interest" + 0.106*"trade" + -0.104*"commerc"
+
+
+[paragraph 988]
+That wealth consists in money, or in gold and silver,
+is a popular notion which naturally arises from the double
+function of money, as the instrument of commerce, and as
+the measure of value. In consequence of its being the
+instrument of commerce, when we have money we can more
+
+[paragraph 1004]
+It would be too ridiculous to go about seriously to
+prove, that wealth does not consist in money, or in
+gold and silver; but in what money purchases, and is
+valuable only for purchasing. Money, no doubt, makes always a
+part of the national capital; but it has already been
+
+[paragraph 1003]
+No complaint, however, is more common than that of a
+scarcity of money. Money, like wine, must always be scarce
+with those who have neither wherewithal to buy it, nor
+credit to borrow it. Those who have either, will seldom
+be in want either of the money, or of the

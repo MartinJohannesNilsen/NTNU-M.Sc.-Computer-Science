@@ -1,0 +1,52 @@
+\clearpage
+\section{Theory}
+\subsection*{Task 3a}
+The operation used to filter out the redundant overlapping boxes for an object is called non-max supression.
+
+\subsection*{Task 3b}
+The resolution gets lower and lower as we move deeper into the network.
+As the lower resolution feature maps is used to detect larger objects, we have that the shallower layers to the left are used for detecting smaller objects.
+Therefore, the claim that the deeper layers (closer to the output) detect small objects is \textbf{False}.
+
+\subsection*{Task 3c}
+One reason for the SSD to use different aspect ratio bounding boxes at the same location is to be able to find boundary box predictions for multiple types of objects.
+If you were to only find one particluar type of object, having only one aspect ratio on the bounding box would work fine if all the objects of that type would fit in the set shape.
+With the predicted bounding boxes covering multiple shapes, the model is better equipped for detecting multiple objects as well.
+
+Another reason is that this optimizes the chances of finding the best fitting bounding box.
+A score is calculated for each of the aspect ratios, which can be further compared for seeing how much of the object is within each of them.
+This tells us more about the most fitting placement of the optimal bounding box.
+
+\subsection*{Task 3d}
+The main difference between SSD and YOLOv1/v2 is the use of single- vs multi-scale feature maps.
+SSD uses multi-scale feature maps, but YOLOv1/v2 on the other hand uses only a single-scale feature map.
+One thing to mention is the performance on predictions of smaller objects. The implementation of multi-scale feature maps in SSD may limit its ability to detect small objects if it does not fit in a feature map.
+YOLOv1/v2 does not have this problem as they use a single feature map.
+
+\subsection*{Task 3e}
+For calculating the total amount of anchor boxes for a feature map, we take the resolution of the feature map times the number of different anchors.
+This can be written as the following equation
+\begin{equation*}
+    \text{Number of achor boxes} = H \cdot W \cdot k,
+\end{equation*}
+where $H$ is the height of the feature map, $W$ the width and $k$ the number of anchors.
+
+For the given feature map of resolution $38 \times 38$, with $6$ anchors, we get
+\begin{equation*}
+    38 \cdot 38 \cdot 6 = 8664
+\end{equation*}
+anchor boxes.
+
+
+\subsection*{Task 3f}
+For this subtask we extend the equation from task 3e, summing up the number of anchor boxes of each feature map. 
+This yields the following equation:
+\begin{equation*}
+    38 \cdot 38 \cdot 6+19 \cdot 19 \cdot 6+10 \cdot 10 \cdot 6+5 \cdot 5 \cdot 6+3 \cdot 3 \cdot 6+1 \cdot 1 \cdot 6 = 11640
+\end{equation*}
+anchor boxes.
+
+
+
+
+

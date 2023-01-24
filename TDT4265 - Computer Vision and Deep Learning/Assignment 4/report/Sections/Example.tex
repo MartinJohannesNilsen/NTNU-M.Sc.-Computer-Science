@@ -1,0 +1,100 @@
+\section*{Task 1}
+
+On this page it is intended to be inserted some example code for LaTeX
+
+\subsection*{Figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=8cm]{Images/example/NTNU_logo.png}
+\end{figure}
+
+\subsection*{Grid of figures}
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/example/graph1.png}
+        \caption{$y=x$}
+        \label{fig:y equals x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/example/graph2.png}
+        \caption{$y=3sinx$}
+        \label{fig:three sin x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/example/graph3.png}
+        \caption{$y=5/x$}
+        \label{fig:five over x}
+    \end{subfigure}
+       \caption{Three simple graphs}
+       \label{fig:three_graphs}
+\end{figure}
+
+\subsection*{Equation}
+\begin{equation*}
+    E\left( w\right) =\dfrac{1}{N}\sum ^{N}_{n=1}-\left( y^{n}\ln \left( \hat{y}^{n}\right) +\left( 1-y^{n}\right) \ln \left( 1-\hat{y}^{n}\right) \right) 
+\end{equation*}
+
+\subsection*{Lists}
+\begin{itemize}
+    \item Itemize for bulleted (unordered) lists
+  \end{itemize}
+\begin{enumerate}
+    \item Enumerate for numbered list
+\end{enumerate}
+
+\clearpage
+
+\subsection*{Flow Chart Example}
+
+\begin{center}
+\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+    \node [block] (init) {Learning \LaTeX};
+    \node [cloud, left of=init] (you) {You};
+    \node [block, below of=init] (new_project) {Making new project};
+    \node [decision, below of=new_project] (decide) {Is my template good enough?};
+    \node [block, right of=new_project, node distance=3cm] (no) {Improve the template};
+    \node [block, below of=decide, node distance=3cm] (yes) {Get to work!};
+
+    % Draw edges
+    \path [line] (init) -- (new_project);
+    \path [line] (new_project) -- (decide);
+    \path [line] (decide) -- node {Yes} (yes);
+    \path [line] (decide) -| node [near start] {No} (no);
+    \path [line] (no) -- (new_project);
+    \path [line,dashed] (you) -- (init);
+\end{tikzpicture}
+\end{center}
+
+% \subsection*{Code}
+% % Have to fix minted, but code can either be inserted directly in minted, or by importing code
+
+% \begin{minted}[breaklines]{c++}
+% int main {
+%     // This is a comment
+%     std::cout << "Hello World from C++!" << std::endl;
+%     std::cout << "I am using the default style to print this code in beautiful colors. Since the text is so long I have to include the 'breaklines' option as well" << std::endl;
+%     return 0;
+% }
+ 
+% \end{minted}
+
+% \vdots
+
+% \usemintedstyle{rrt}
+% \begin{minted}{python}
+% # This is a comment
+% print('Hello world from Python!')
+% print('I am using the "rrt" style to print this code in beautiful colors')
+% \end{minted}
+
+% \vdots
+
+% \usemintedstyle{tango}
+% \inputminted[breaklines]{Matlab}{./Code/HelloWorld.m}

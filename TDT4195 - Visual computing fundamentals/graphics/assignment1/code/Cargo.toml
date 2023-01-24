@@ -1,0 +1,14 @@
+[package]
+name = "gloom-rs"
+version = "0.1.0"
+authors = ["Michael H. Gimle <michael.gimle@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glutin = "0.27.0"
+gl = "0.14.0"
+tobj = "3.1.0"
+image = "0.23.14"
+nalgebra-glm = "0.15.0"

@@ -1,0 +1,458 @@
+You are connected to the database: assignment3
+-----------------------------------------------
+
+
+Task 1
+  n_users    n_activities    n_trackpoints
+---------  --------------  ---------------
+      182           16048          9681756
+
+Task 2
+  average    maximum    minimum
+---------  ---------  ---------
+  88.1758       2102          0
+
+Task 3
+  Id    Count
+----  -------
+ 128     2102
+ 153     1793
+ 025      715
+ 163      704
+ 062      691
+ 144      563
+ 041      399
+ 085      364
+ 004      346
+ 140      345
+
+Task 4
+  users with multi-day activities
+---------------------------------
+                               98
+
+Task 5
+activities registred multiple times
+-------------------------------------
+
+Task 6
+Users in contact: ['073']
+
+Task 7
+users:  172
+  Users that have never taken a taxi  labeled
+------------------------------------  ---------
+                                 020  True
+                                 021  True
+                                 052  True
+                                 053  True
+                                 056  True
+                                 059  True
+                                 060  True
+                                 064  True
+                                 065  True
+                                 067  True
+                                 068  True
+                                 069  True
+                                 073  True
+                                 075  True
+                                 076  True
+                                 081  True
+                                 082  True
+                                 084  True
+                                 086  True
+                                 087  True
+                                 088  True
+                                 089  True
+                                 091  True
+                                 092  True
+                                 096  True
+                                 097  True
+                                 100  True
+                                 101  True
+                                 102  True
+                                 104  True
+                                 105  True
+                                 106  True
+                                 107  True
+                                 108  True
+                                 110  True
+                                 112  True
+                                 114  True
+                                 115  True
+                                 116  True
+                                 117  True
+                                 118  True
+                                 124  True
+                                 125  True
+                                 126  True
+                                 129  True
+                                 136  True
+                                 138  True
+                                 139  True
+                                 141  True
+                                 144  True
+                                 147  True
+                                 153  True
+                                 154  True
+                                 161  True
+                                 167  True
+                                 170  True
+                                 174  True
+                                 175  True
+                                 179  True
+                                 000  False
+                                 001  False
+                                 002  False
+                                 003  False
+                                 004  False
+                                 005  False
+                                 006  False
+                                 007  False
+                                 008  False
+                                 009  False
+                                 011  False
+                                 012  False
+                                 013  False
+                                 014  False
+                                 015  False
+                                 016  False
+                                 017  False
+                                 018  False
+                                 019  False
+                                 022  False
+                                 023  False
+                                 024  False
+                                 025  False
+                                 026  False
+                                 027  False
+                                 028  False
+                                 029  False
+                                 030  False
+                                 031  False
+                                 032  False
+                                 033  False
+                                 034  False
+                                 035  False
+                                 036  False
+                                 037  False
+                                 038  False
+                                 039  False
+                                 040  False
+                                 041  False
+                                 042  False
+                                 043  False
+                                 044  False
+                                 045  False
+                                 046  False
+                                 047  False
+                                 048  False
+                                 049  False
+                                 050  False
+                                 051  False
+                                 054  False
+                                 055  False
+                                 057  False
+                                 061  False
+                                 063  False
+                                 066  False
+                                 070  False
+                                 071  False
+                                 072  False
+                                 074  False
+                                 077  False
+                                 079  False
+                                 083  False
+                                 090  False
+                                 093  False
+                                 094  False
+                                 095  False
+                                 099  False
+                                 103  False
+                                 109  False
+                                 113  False
+                                 119  False
+                                 120  False
+                                 121  False
+                                 122  False
+                                 123  False
+                                 127  False
+                                 130  False
+                                 131  False
+                                 132  False
+                                 133  False
+                                 134  False
+                                 135  False
+                                 137  False
+                                 140  False
+                                 142  False
+                                 143  False
+                                 145  False
+                                 146  False
+                                 148  False
+                                 149  False
+                                 150  False
+                                 151  False
+                                 152  False
+                                 155  False
+                                 156  False
+                                 157  False
+                                 158  False
+                                 159  False
+                                 160  False
+                                 162  False
+                                 164  False
+                                 165  False
+                                 166  False
+                                 168  False
+                                 169  False
+                                 171  False
+                                 172  False
+                                 173  False
+                                 176  False
+                                 177  False
+                                 178  False
+                                 180  False
+                                 181  False
+
+Task 8
+transportation_mode      Count
+---------------------  -------
+airplane                     1
+bike                        19
+boat                         1
+bus                         12
+car                          8
+run                          1
+subway                       4
+taxi                        10
+train                        2
+walk                        31
+
+Task 9a
+  Year with most activities    Month with most activities in this year
+---------------------------  -----------------------------------------
+                       2008                                         11
+
+Task 9b
+  uid    n_activities    hours
+-----  --------------  -------
+  062             130  47.3136
+  128              75  68.2211
+
+Task 10
+User_id: 112
+Distance in 2008: 1.3497848643311852
+
+Task 11
+  uid     m gained
+-----  -----------
+  128  650951.9973
+  153  554960.6231
+    4  332036.3184
+   41  240768.8657
+    3  233663.6424
+   85  217643.3849
+  163  205274.3705
+   62  181693.2917
+  144  179441.5245
+   30  175679.7096
+   39  146703.5928
+   84  131161.2312
+    0  121504.8624
+    2  115198.2456
+  167  112974.1546
+   25  109158.5726
+   37   99234.5894
+  140   94846.2994
+  126   83025.8358
+   17   62581.3531
+
+Task 12
+  uid    Invalid activities
+-----  --------------------
+    0                   101
+    1                    45
+    2                    98
+    3                   179
+    4                   219
+    5                    45
+    6                    17
+    7                    30
+    8                    16
+    9                    31
+   10                    50
+   11                    32
+   12                    43
+   13                    29
+   14                   118
+   15                    46
+   16                    20
+   17                   129
+   18                    27
+   19                    31
+   20                    20
+   21                     7
+   22                    55
+   23                    11
+   24                    27
+   25                   263
+   26                    18
+   27                     2
+   28                    36
+   29                    25
+   30                   112
+   31                     3
+   32                    12
+   33                     2
+   34                    88
+   35                    23
+   36                    34
+   37                   100
+   38                    58
+   39                   147
+   40                    17
+   41                   201
+   42                    55
+   43                    21
+   44                    32
+   45                     7
+   46                    13
+   47                     6
+   48                     1
+   49                     0
+   50                     8
+   51                    36
+   52                    44
+   53                     7
+   54                     2
+   55                    15
+   56                     7
+   57                    16
+   58                    13
+   59                     5
+   60                     1
+   61                    12
+   62                   249
+   63                     8
+   64                     7
+   65                    26
+   66                     6
+   67                    33
+   68                   139
+   69                     6
+   70                     5
+   71                    29
+   72                     2
+   73                    18
+   74                    19
+   75                     6
+   76                     8
+   77                     3
+   78                    19
+   79                     2
+   80                     6
+   81                    16
+   82                    27
+   83                    15
+   84                    99
+   85                   184
+   86                     5
+   87                     3
+   88                    11
+   89                    40
+   90                     3
+   91                    63
+   92                   101
+   93                     4
+   94                    16
+   95                     4
+   96                    35
+   97                    14
+   98                     5
+   99                    11
+  100                     3
+  101                    46
+  102                    13
+  103                    24
+  104                    97
+  105                     9
+  106                     3
+  107                     1
+  108                     5
+  109                     3
+  110                    17
+  111                    26
+  112                    67
+  113                     1
+  114                     3
+  115                    58
+  116                     0
+  117                     3
+  118                     3
+  119                    22
+  120                     0
+  121                     4
+  122                     6
+  123                     3
+  124                     4
+  125                    25
+  126                   105
+  127                     4
+  128                   720
+  129                     6
+  130                     8
+  131                    10
+  132                     3
+  133                     4
+  134                    31
+  135                     5
+  136                     6
+  137                     0
+  138                    10
+  139                    12
+  140                    86
+  141                     1
+  142                    52
+  143                     0
+  144                   157
+  145                     5
+  146                     7
+  147                    30
+  148                     0
+  149                     0
+  150                    16
+  151                     1
+  152                     2
+  153                   557
+  154                    14
+  155                    30
+  156                     0
+  157                     9
+  158                     9
+  159                     5
+  160                     0
+  161                     7
+  162                     9
+  163                   233
+  164                     6
+  165                     2
+  166                     2
+  167                   134
+  168                    19
+  169                     9
+  170                     2
+  171                     3
+  172                     9
+  173                     5
+  174                    54
+  175                     4
+  176                     8
+  177                     0
+  178                     0
+  179                    28
+  180                     2
+  181                    14
+
+-----------------------------------------------
+Connection to assignment3-db is closed

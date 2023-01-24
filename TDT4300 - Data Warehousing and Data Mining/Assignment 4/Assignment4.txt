@@ -1,0 +1,3 @@
+In this assignment, you are going to classify poisonous mushrooms. Download all files and follow the instructions in the Jupyter notebooks. We recommend you start soon with this assignment.
+Implement at least one of the two simple classifications methods.
+Please deliver your report in PDF format.

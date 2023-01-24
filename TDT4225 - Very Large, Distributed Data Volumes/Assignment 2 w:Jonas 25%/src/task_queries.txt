@@ -1,0 +1,23 @@
+# Task 2
+# First get the count of all activities per user
+SELECT COUNT(Activity.id) FROM User LEFT OUTER JOIN Activity ON (User.id = Activity.user_id) GROUP BY User.id
+
+# Then use this as a set to answer the max, min, avg task:
+SELECT AVG(x.n_activities) as average, MAX(x.n_activities) as maximum, MIN(x.n_activities) as minimum FROM (SELECT COUNT(Activity.id) as n_activities FROM User LEFT OUTER JOIN Activity ON (User.id = Activity.user_id) GROUP BY User.id) as x
+
+Yields answer:
+avg: 88.1758
+max: 2102
+min: 0
+
+# Task 3
+SELECT User.id as uid, COUNT(Activity.id) as n_activities FROM User LEFT OUTER JOIN Activity ON (User.id = Activity.user_id) GROUP BY User.id ORDER BY n_activities DESC;
+
+# Task 4
+# Query giving a clean table overview of all activities satisfying the task requirements
+SELECT user.id, activity.id, activity.start_date_time as start, activity.end_date_time as end FROM user JOIN activity ON(user.id = activity.user_id) WHERE (SELECT DATEDIFF(activity.end_date_time, activity.start_date_time)) > 0;
+
+# Query returning only count of all these activities:
+SELECT COUNT(a) FROM (SELECT DISTINCT user.id as a FROM user JOIN activity ON(user.id = activity.user_id) WHERE (SELECT DATEDIFF(activity.end_date_time, activity.start_date_time)) > 0) as x;
+
+# Task 6
