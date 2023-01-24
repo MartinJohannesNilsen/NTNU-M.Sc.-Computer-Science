@@ -1,12 +1,15 @@
-# NTNU - M.SC in Computer Science
+# NTNU - M.Sc. in Computer Science
 
-This repository contains the main files and reports from the courses I took during my 3 semesters leading up to the Master's Thesis. The semester plan looked like this:
+This repository contains the main files and reports from the courses I took during my 3 semesters leading up to the Master's Thesis. 
+The semester plan looked like this:
 
 **1st semester**:
 * TDT4117 - Information Retrieval
 * TDT4136 - Introduction to Artificial Intelligence
 * TDT4195 - Visual computing fundamentals
 * TDT4225 - Very Large, Distributed Data Volumes
+
+In addition to working as a teaching assistant in the subject "Applied machine learning with project"
 
 **2nd semester**:
 * TDT4265 - Computer Vision and Deep Learning
