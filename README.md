@@ -1,7 +1,6 @@
 # NTNU - M.Sc. in Computer Science
 
-This repository contains the main files and reports from the courses I took during my 3 semesters leading up to the Master's Thesis. 
-The semester plan looked like this:
+This repository serves as a collection of my work in the (code-related) subjects within my master's degree.
 
 **1st semester**:
 * TDT4117 - Information Retrieval
@@ -24,5 +23,5 @@ In addition to working as a teaching assistant in the subject "Applied machine l
     - TDT12 - Computational Creativity
 * TSOL425 - Technology Management in Teams
 
-**4th semester** (current): 
-* TDT4900 - Computer Science, Master's Thesis 
+**4th semester**: 
+* TDT4900 - Computer Science, Master's Thesis
